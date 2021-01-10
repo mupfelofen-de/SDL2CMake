@@ -41,9 +41,6 @@ if(WIN32)
 endif(WIN32)
 
 find_package(SDL2 REQUIRED)
-if(USE_LIBTMX)
-    find_package(LibXml2 REQUIRED)
-endif(USE_LIBTMX)
 
 include_directories(
     PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src
