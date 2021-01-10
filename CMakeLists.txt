@@ -72,7 +72,7 @@ if(WIN32)
         ${PROJECT_NAME}
         PROPERTIES
         ADDITIONAL_CLEAN_FILES
-        ${CMAKE_CURRENT_SOURCE_DIR}/demo/SDL2.dll)
+        ${CMAKE_CURRENT_SOURCE_DIR}/out/SDL2.dll)
 endif(WIN32)
 
 option(ENABLE_DIAGNOSTICS "Enable all diagnostics"           OFF)
